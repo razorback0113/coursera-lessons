@@ -4,12 +4,36 @@
 	<meta charset="utf-8">
 	<title>Hello There!</title>
 </head>
+<style>
+	p {
+	color:black;
+	font-size:20px;
+}
+
+	.ramble, h1, header{
+color:black;
+font-size:30px;
+text-align: center;
+ }
+	#trash, footer{
+text-align: center;
+}
+
+	header{
+		font-weight:bold;
+	}
+
+</style>
+
+
+
+
 <header>This is a site I am just messing around on.</header>
 
 <body>
 	<h1>Again for the second time, this is just a test site. Please dont judge me.</h1>
 		<section id= section1>
-		<h2>I guess I am just gonna ramble.</h2>
+		<h2 class="ramble">I guess I am just gonna ramble.</h2>
 		<div>
 		<p onclick="alert('LADIES AND GENTLEMEN, WE GOTTEM!!!')"> so today I am being forced to do something productive.</p>
 		</div> 
@@ -41,8 +65,8 @@
 	<article><h3>OH, OH OH, I KNOW SOMEONE WHO CAN HELP!!</h3><a href="https://www.youtube.com/channel/UCX0p8bJ8OOVb8yA7rrp9BJA?view_as=subscriber" target= "_blank"> This is the person, trust me.</a>How is this different to a paragraph?</article>
 	<div>lol its not</div>
 <!-- <aside>note to self, this is supposed to be aside.</aside> -->
-<p>This site was made by Kale Bishop &quot;I was really bored one day during summer holiday. So my dad made me do this. Look where it got me. &quot;. &copy; Copyright</p>
+<p class="ramble">This site was made by Kale Bishop &quot;I was really bored one day during summer holiday. So my dad made me do this. Look where it got me. &quot; &copy; Copyright</p>
 <footer>There is a C, it means that you can't nick it.</footer>
-<a href="index.html"><div>i wonder if this will work</div></a>
+<a id="trash" href="index.html"><div>back to the top</div></a>
 </body>
 </html>
